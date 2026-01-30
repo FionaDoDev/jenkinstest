@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     VM2_HOST = "20.215.34.221"
-    VM2_USER = "fiona"
+    VM2_USER = "vm2-app-docker-container"
 
     APP_NAME = "simple-flask-app"
     CONTAINER_NAME = "simple-flask-app-v2"
