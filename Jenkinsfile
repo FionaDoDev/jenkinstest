@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    VM2_HOST = "20.215.34.221"
+    VM2_HOST = "172.19.0.5"
     VM2_USER = "vm2-app-docker-container"
 
     APP_NAME = "simple-flask-app"
